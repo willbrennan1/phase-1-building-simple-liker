@@ -4,6 +4,18 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+// adding the .hidden class to the error modal so that ERROR does not appear when the page first loads
+
+const hideError = document.querySelector('#modal');
+hideError.setAttribute("class", "hidden");
+
+function clickHeart(event) {
+  
+  // invoking the mimicServerCall function
+  mimicServerCall();
+
+ 
+}
 
 
 
